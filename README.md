@@ -55,46 +55,110 @@ come together to model such patterns using Python.
 The program starts with a single trunk
 Each branch:
 Splits into two smaller branches
-Turns by a fixed angle
-Reduces its length by a fixed ratio
-This process repeats recursively
-The recursion stops when the branch length becomes very small
-This simple rule creates a complex tree-like structure.
-📐 Parameters Used
-Angle: Controls how wide the branches spread
-Ratio: Controls how much shorter each new branch becomes
-Depth / Length limit: Controls the size of the tree
-By changing these values, different tree shapes can be created.
-📷 Output
-The repository includes screenshots showing the generated fractal tree. Each image represents the visual output of the mathematical model.
-🌍 Real-World Applications of Fractals
-Natural pattern modeling
-Computer graphics and animation
-Medical imaging (MRI, X-ray pattern analysis)
-Satellite image analysis
-Network design
-Scientific simulations
-🇮🇳 STEM & Atmanirbhar Bharat Relevance
-This project supports:
-STEM education
-Computational thinking
-Self-learning through coding
-Innovation and problem-solving skills
-It aligns with the vision of Atmanirbhar Bharat by encouraging students to build strong foundations in mathematics, science, and technology.
-👩‍🎓 Who Can Use This Project?
-School students (STEM projects)
-Beginners learning Python
-Mathematics learners
-Teachers for classroom demonstrations
-Coding and science exhibitions
-📄 License
-This project is licensed under the MIT License. You are free to use, modify, and share it for educational purposes.
-✨ Author
-Siddhi Kishor Dhote
-GitHub: https://github.com/siddhidhote3-droid
-⭐ Acknowledgement
-Inspired by:
-Nature’s patterns
-Fractal mathematics
-STEM-based learning approaches
 
+# 🌳 Fractal Tree Mathematical Model (Python)
+
+A Python-based implementation of a **fractal tree** using recursive algorithms to demonstrate the application of **fractal mathematics** and **computational thinking** in STEM learning.
+
+---
+
+## 🌳 Working Principle
+
+This project models a **fractal tree structure** using recursion.
+
+The algorithm starts with a **single trunk**.  
+At each recursive step, every branch:
+
+- Splits into **two smaller branches**
+- Rotates by a **fixed angle**
+- Scales down in length using a **constant ratio**
+- Repeats the same logic recursively
+
+The recursion terminates when the branch length falls below a defined minimum limit.
+
+Through repeated application of simple mathematical rules, the program generates a **complex, self-similar tree structure**, illustrating the fundamentals of fractal geometry.
+
+---
+
+## 📐 Parameters Used
+
+The appearance and complexity of the fractal tree are controlled by the following parameters:
+
+- **Angle**  
+  Controls the divergence and spread of branches.
+
+- **Length Ratio**  
+  Determines how much shorter each new branch becomes.
+
+- **Depth / Minimum Length Limit**  
+  Restricts recursion and controls the overall size of the tree.
+
+By modifying these parameters, multiple unique fractal tree structures can be generated.
+
+---
+
+## 📷 Output
+
+The repository includes **screenshots of the generated fractal tree**.  
+Each image represents the visual output of the underlying mathematical model implemented in Python.
+
+---
+
+## 🌍 Real-World Applications of Fractals
+
+Fractal mathematics has practical applications in various scientific and technological fields:
+
+- Natural pattern modeling (trees, rivers, clouds)
+- Computer graphics and animation
+- Medical imaging (MRI and X-ray pattern analysis)
+- Satellite image processing and terrain analysis
+- Network design and optimization
+- Scientific and mathematical simulations
+
+---
+
+## 🇮🇳 STEM & Atmanirbhar Bharat Relevance
+
+This project supports:
+
+- **STEM-based education**
+- **Computational and algorithmic thinking**
+- **Hands-on learning through coding**
+- **Innovation and problem-solving skills**
+
+It aligns with the vision of **Atmanirbhar Bharat** by encouraging students to build strong foundations in **mathematics, science, and technology** through self-driven learning.
+
+---
+
+## 👩‍🎓 Intended Users
+
+This project is suitable for:
+
+- School students working on STEM projects
+- Beginners learning Python programming
+- Mathematics and computer science learners
+- Teachers for classroom demonstrations
+- Coding competitions and science exhibitions
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute the code for educational purposes.
+
+---
+
+## ✨ Author
+
+**Siddhi Kishor Dhote**  
+GitHub: https://github.com/siddhidhote3-droid
+
+---
+
+## ⭐ Acknowledgements
+
+Inspired by:
+- Natural branching patterns
+- Fractal geometry
+- STEM-oriented learning approaches
